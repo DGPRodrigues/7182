@@ -2,6 +2,7 @@ namespace Store.Domain.Entities
 {
     public class Customer : Entity
     {
+        // Alterei aqui
         public Customer(string name, string email)
         {
             Name = name;
